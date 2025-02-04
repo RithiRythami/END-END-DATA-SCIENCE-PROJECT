@@ -38,3 +38,16 @@ GET /: This endpoint simply returns a greeting message {"message": "Hello, Stran
 *POST /predict: This endpoint accepts a *POST request with banknote feature data (variance, skewness, curtosis, entropy) and uses the loaded model to predict whether the banknote is real or fake. The prediction is returned as either "Fake note" or "It's a Bank note".
 Running the Application:
 The FastAPI application is run using the Uvicorn server on localhost:8000, with the auto-reload feature enabled for easy development. This ensures that any changes made to the code are reflected immediately without needing to restart the server. This setup allows users to send a POST request to /predict with the banknote's features and receive a real-time prediction based on the trained model
+
+OUTPUT
+
+
+![Image](https://github.com/user-attachments/assets/140fba4b-5978-4285-934f-0b9692c6435b)
+
+![Image](https://github.com/user-attachments/assets/b96c268e-66c8-48ef-9e11-a01712de8517)
+
+![Image](https://github.com/user-attachments/assets/e7da9721-808f-4318-af76-e41e0aad16d5)
+
+![Image](https://github.com/user-attachments/assets/9b2f8b6e-c23c-4ab0-99f6-4895f37f281a)
+
+![Image](https://github.com/user-attachments/assets/8dad0d3c-619d-497b-b7fd-3a6ecf7eb81a)
